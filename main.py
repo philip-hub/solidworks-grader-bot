@@ -2,9 +2,9 @@ import os
 import win32com.client
 
 # Set paths
-reference_file = "path/to/reference.SLDRT"
-tograde_folder = "path/to/tograde"
-graded_folder = "path/to/graded-file"
+reference_file = "reference.SLDRT"
+tograde_folder = "/tograde"
+graded_folder = "/graded-file"
 
 # Initialize SolidWorks
 swApp = win32com.client.Dispatch("SldWorks.Application")
